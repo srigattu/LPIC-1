@@ -1,1 +1,9 @@
-
+# "uname -r" will report the kernel version
+# "lsb_release -a"  will often list the distribution
+@ "libre office "
+ctrl+L to clear the screen
+ctrl+D to exit the terminal
+distrowatch.com it maintains the information about the downloads, it describes the newer releases 
+and all the information about the linux distributions will avilable here
+# "free" command will dispaly the memory
+#"free -m" command will shows the memory in mb's(mega bytes)
