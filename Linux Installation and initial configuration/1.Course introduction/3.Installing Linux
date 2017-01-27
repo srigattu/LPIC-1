@@ -16,3 +16,12 @@ INSTALLING UBUNTU :
 
 INSTALLING CENTOS (REDHAT ENTERPRICE EDITION ) :
 
+DUAL BOOTING WITH WINDOWS AND PXE INSTALL :
+
+Network Boot :
+
+in a corporate environment you may use pxe server
+
+Lets install suse enterprise linux using PXE :
+
+
