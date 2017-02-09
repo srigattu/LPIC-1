@@ -11,10 +11,14 @@ Linux system adminstaration fundamentals :::
 
 
 customizing the users shell :
+
+introduction to linux users environment  :
+
 variables 
   export
   env
   set
+  
 options :
   allexport
   noclobber
@@ -22,5 +26,32 @@ options :
 aliases :
   alias
   unalias
+  
 functions :
   scripts in ram
+  
+  understanding the variables in linux :
+  
+  variables 
+  export
+  env
+  set
+  
+  *both set and env can dispaly variables
+the command set can display localm variables
+*whereas env(/usr/bin/env)canot
+*use a variable like ssh_connection to alter prompt
+
+
+setting shell options in linux :
+
+options :
+  allexport
+  noclobber
+  ignoreeof
+  
+  *set -o dispaly options
+*set -o all export #auto export variables
+*set +0 allexport #turns off
+
+
