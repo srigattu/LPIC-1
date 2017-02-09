@@ -23,6 +23,7 @@ options :
   allexport
   noclobber
   ignoreeof
+  
 aliases :
   alias
   unalias
