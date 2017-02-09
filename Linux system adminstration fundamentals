@@ -8,3 +8,19 @@ Linux system adminstaration fundamentals :::
 1.user and groups
 2.x configuration
 3.cron jobs
+
+
+customizing the users shell :
+variables 
+  export
+  env
+  set
+options :
+  allexport
+  noclobber
+  ignoreeof
+aliases :
+  alias
+  unalias
+functions :
+  scripts in ram
