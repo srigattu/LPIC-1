@@ -56,3 +56,15 @@ options :
 *set +0 allexport #turns off
 
 
+using command aliases in linux :
+
+
+aliases :
+  alias
+  unalias
+  
+  aliaes reside in memory and are checked before path
+alias ls="ls --color=auto'
+unalias ls
+\ls
+
