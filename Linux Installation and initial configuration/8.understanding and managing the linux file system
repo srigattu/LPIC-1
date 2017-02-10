@@ -1,1 +1,35 @@
+introduction to linux file system :
+
+partitionmanagement
+  parted /fdisk/gdisk
+  
+  creating file systems
+  mount and unmount (umount)
+  
+  linux file systems :
+  
+  creating partions :
+    fdisk
+    parted
+    gdisk
+    
+ Disk labels, GPT and MBR drives :
+ 
+ lsblk --to view the device 
+ 
+ 
+ creating partions :
+ 
+ 
+understanding a file sysstem ::
+
+yoursystem your choice
+general use
+choose ext4
+xfs for specialized use
+
+mkfs will be a part of it
+
+
+creating file system :
 
