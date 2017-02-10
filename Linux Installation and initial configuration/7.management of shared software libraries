@@ -1,1 +1,14 @@
+imtroduction of shared libraries :
+
+*most programs will make use of shared libraries or modules to prevent to need of code duplication
+*ddl in windows :.so or.ko in linux
+*ldd/bin/ls----to list shared libraries for ls
+*lsmod --to list loaded kernel modules
+*/etc/ld.so.conf---maintains path to search for modules
+
+
+managing the user space modules :
+
+managing kernel modules :
+
 
