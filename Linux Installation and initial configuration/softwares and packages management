@@ -9,3 +9,21 @@ redhat/ fedora/centos :
 *rpm -e name of packaage--to remove rpm from system
 *the command yum allows you to install from a repository without having to know the path to the file or dependencies
 * yum install packagename
+
+
+basics of yum :
+
+*yum install package name --- to install a package
+*yum -y remove packagename --to remove a package 
+*yum info packagename --to know the information about the installing package before
+*yum list --- it showswhat are the packages in your repository
+*yum list installed ---- to know what are the packages are installed in your device
+*yum search packagename--tomknow about the package
+*yum grouplist ----to know group packages
+
+
+
+learning the yum shell :
+
+creating a yum repository :
+
