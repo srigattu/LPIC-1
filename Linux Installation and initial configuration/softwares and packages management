@@ -1,1 +1,11 @@
 
+redhat/ fedora/centos :
+.rpm files and software management yum repositories
+
+*files and installation scripts in .rpm file
+*rpm database located at/var/lib/rpm
+*rpm -qa ----to list all the programs installed on device
+*rpm -i name of.rpm---to install rpm to system
+*rpm -e name of packaage--to remove rpm from system
+*the command yum allows you to install from a repository without having to know the path to the file or dependencies
+* yum install packagename
