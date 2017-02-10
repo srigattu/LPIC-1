@@ -1,1 +1,20 @@
+introduction to virtual memory and tools :
 
+swap file systems
+  partitions and files
+tools and troubleshooting 
+
+
+where physical become virtual :
+
+virtual memory in linux can be :
+   a disk partition
+     a swap file
+  managed with command swapon
+  created with mkswap
+  
+  swapping memory 
+  
+  
+  working with swap partitions :
+  
