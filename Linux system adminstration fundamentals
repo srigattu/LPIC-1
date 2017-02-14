@@ -97,7 +97,57 @@ PERSISTENT - LOGIN SCRIPTS :
 
 
 
+6.AUTOMATE SYSTEM TASKS :
 
+introduction to automation in linux :
+
+cron
+ /etc/crontab
+ crontab
+ cron.allow
+ 
+at
+ at
+ at.allow
+ atrm
+ atq
+ 
+anacron
+ /etc/anacrontab
+ 
+batch
+ load avg <0.8
+ 
+ regular or just one :
+ 
+ REGULAR TASKS : 
+ 
+ .cron : more than once a day but misses jpb if turned off
+ .anacron : run jobs missed on startup but jobs can run just once a day
+ 
+
+ONCE OFF :
+
+.at : runs at specified time and date
+.batch : runs when load average drops below 0.8
+
+SYSTEM CRON JOBS :
+
+/etc/crontab
+/etc/cron.d
+/etc/cron.hourly
+/etc/cron.daily
+/etc/cron.weekly
+/etc/cron.monthly
+
+SYSTEM CRON FORMAT :
+
+5 20 * * 1-5 ROOT /USR/SBIN/BACKUP.SH
+
+7 FIELDS :
+
+MINUTE 0-59 : 5 PAST THE HOUR
+HOUR 0-23 : 8 PM
 
 
 
